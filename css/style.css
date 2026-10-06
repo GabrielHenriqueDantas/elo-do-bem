@@ -812,26 +812,14 @@ a.table-row:hover {
 }
 
 .timeline-item {
-    position: relative;
     display: grid;
     grid-template-columns: 20px 1fr;
     gap: 15px;
-    padding-bottom: 32px;
-}
-
-.timeline-item:not(:last-child)::before {
-    content: "";
-    position: absolute;
-    top: 14px;
-    left: 5px;
-    width: 1px;
-    height: 100%;
-    background: var(--border);
+    padding: 20px 0;
+    border-bottom: 1px solid var(--border);
 }
 
 .timeline-marker {
-    position: relative;
-    z-index: 1;
     width: 11px;
     height: 11px;
     margin-top: 5px;
@@ -1019,8 +1007,7 @@ a.table-row:hover {
 }
 
 .faq-intro {
-    position: sticky;
-    top: 40px;
+    align-self: start;
 }
 
 .faq-intro h2 {
