@@ -52,6 +52,10 @@ elo-do-bem/
 │   ├── joao.jpeg
 │   └── kaio.jpeg
 │
+├── imagens-projeto/
+│   ├── home.png
+│   └── painel.png
+│
 ├── index.html
 ├── sobre.html
 ├── painel.html
@@ -61,7 +65,51 @@ elo-do-bem/
 ├── contato.html
 └── README.md
 
+## Integrantes
 
-Link do projeto:
+Gabriel Henrique
+RM: RM576855
+Turma: 1TDSPB
+GitHub: https://github.com/GabrielHenriqueDantas
+LinkedIn: https://www.linkedin.com/in/gabriel-h-dantas/
 
+João Pedro Paseto
+RM: RM576879
+Turma: 1TDSPB
+GitHub: https://github.com/JoaoPaseto
+LinkedIn: https://www.linkedin.com/in/jo%C3%A3o-pedro-macedo-paseto-09150729b/
+
+Kaio César
+RM: RM575944
+Turma: 1TDSPB
+GitHub: https://github.com/okaioccesar
+LinkedIn: https://www.linkedin.com/in/okaioccesar/
+
+## Como visualizar o projeto
+O projeto pode ser executado localmente abrindo o arquivo index.html em um navegador.
+Também está disponível online através do GitHub Pages.
+
+Site do projeto:
 https://gabrielhenriquedantas.github.io/elo-do-bem/
+
+Repositório:
+https://github.com/GabrielHenriqueDantas/elo-do-bem
+
+## Imagens do projeto
+
+### Página inicial
+
+![Página inicial do Elo do Bem](imagens-projeto/home.png)
+
+### Painel
+
+![Painel do Elo do Bem](imagens-projeto/painel.png)
+ 
+## Contato
+
+Para informações sobre o projeto, entre em contato com os integrantes através dos perfis do GitHub ou LinkedIn disponíveis neste README.
+
+Observações
+
+Este projeto corresponde à primeira Sprint do Challenge Turma do Bem.
+Nesta etapa, a solução foi desenvolvida como um protótipo estático, sem utilização de JavaScript, frameworks ou bibliotecas externas.
