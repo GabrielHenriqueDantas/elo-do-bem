@@ -88,7 +88,7 @@ a {
 
 .hero {
     padding: 90px 0;
-    background: var(--light);
+    background: #fff7f3;
 }
 
 .hero-content {
@@ -159,7 +159,7 @@ a {
     background: var(--white);
     border: 1px solid var(--border);
     border-radius: 18px;
-    box-shadow: 0 20px 50px rgba(24, 33, 38, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .card-label {
@@ -217,10 +217,15 @@ a {
 }
 
 .info-card {
-    min-height: 250px;
+    min-height: 220px;
     padding: 30px;
+    background: var(--white);
     border: 1px solid var(--border);
     border-radius: 14px;
+}
+
+.info-card:hover {
+    border-color: var(--primary);
 }
 
 .card-number {
@@ -230,7 +235,7 @@ a {
 }
 
 .info-card h3 {
-    margin-top: 55px;
+    margin-top: 30px;
     font-size: 23px;
 }
 
