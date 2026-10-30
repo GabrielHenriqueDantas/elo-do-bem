@@ -1149,3 +1149,56 @@ a.table-row:hover {
     margin-top: 14px;
     color: #7c898f;
 }
+
+/* Sprint 2 - Responsividade para tablets */
+@media (max-width: 900px) {
+    .container { width: calc(100% - 40px); }
+    .header-content { flex-direction: column; gap: 15px; padding: 20px 0; }
+    .nav { flex-wrap: wrap; justify-content: center; gap: 15px; }
+    .hero-content, .solution-content, .faq-layout, .contact-layout,
+    .relationship-layout, .dashboard-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .cards, .about-grid, .roadmap-grid, .team-grid, .stats-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .hero-content > *, .solution-content > *, .faq-layout > *,
+    .contact-layout > *, .relationship-layout > *, .dashboard-grid > * {
+        min-width: 0;
+    }
+    .footer-content { flex-direction: column; gap: 20px; }
+}
+
+/* Sprint 2 - Responsividade para celulares */
+@media (max-width: 600px) {
+    .container { width: calc(100% - 30px); }
+    .nav { gap: 12px; }
+    .hero { padding: 50px 0; }
+    .hero h1 { font-size: 38px; letter-spacing: -1px; }
+    .page-hero h1 { font-size: 32px; }
+    .section-heading h2, .solution h2, .cta h2 { font-size: 28px; }
+    .cards, .about-grid, .roadmap-grid, .team-grid,
+    .stats-grid, .form-row, .detail-grid { grid-template-columns: 1fr; }
+    .dashboard-title, .relationship-title, .cta-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .dashboard-title h1, .relationship-title h1 { font-size: 34px; }
+    .dashboard-title > *, .relationship-title > * { min-width: 0; max-width: 100%; }
+    .relationship-status { align-self: flex-start; }
+    .faq-item { grid-template-columns: 30px minmax(0, 1fr); gap: 10px; }
+    .faq-item > div { min-width: 0; }
+    .contact-section { padding: 50px 0; }
+    .contact-form { width: 100%; padding: 20px; }
+    .form-group input, .form-group select, .form-group textarea { max-width: 100%; }
+    .team-card, .stat-card, .dashboard-panel { min-width: 0; }
+    .team-photo img { max-width: 100%; }
+    .footer-nav { flex-wrap: wrap; }
+    h1, h2, h3, p { overflow-wrap: break-word; }
+    .table-header, .table-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .task-item { grid-template-columns: 6px minmax(0, 1fr); }
+    .task-date { grid-column: 2; text-align: left; }
+    .timeline-top, .next-step-info { flex-wrap: wrap; }
+}
