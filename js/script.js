@@ -24,3 +24,19 @@ perguntas.forEach(function (pergunta) {
         pergunta.setAttribute("aria-expanded", aberto);
     });
 });
+
+
+/* Formulario de contato */
+const formulario = document.querySelector(".contact-form");
+const mensagemSucesso = document.querySelector("#mensagem-sucesso");
+
+if (formulario && mensagemSucesso) {
+    formulario.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        mensagemSucesso.textContent =
+            "Formulario preenchido com sucesso! Esta é uma demonstração.";
+
+        formulario.reset();
+    });
+}

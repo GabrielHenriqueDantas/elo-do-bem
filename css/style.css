@@ -1258,3 +1258,11 @@ a.table-row:hover {
 .faq-item.active .faq-button span {
     transform: rotate(45deg);
 }
+
+
+/* Mensagem do formulario */
+#mensagem-sucesso {
+    margin-top: 15px;
+    color: #36784a;
+    font-weight: bold;
+}
