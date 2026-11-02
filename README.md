@@ -10,7 +10,7 @@ A solução busca centralizar informações importantes, como contatos, históri
 
 O objetivo do projeto é apresentar uma solução que facilite a organização e o acompanhamento dos relacionamentos da Turma do Bem.
 
-Nesta primeira Sprint foi desenvolvido um protótipo estático utilizando HTML e CSS.
+Na Sprint 1, foi desenvolvido um protótipo estático utilizando HTML e CSS. Na Sprint 2, o projeto evoluiu com layouts responsivos e interações em JavaScript, mantendo a estrutura original.
 
 ## Funcionalidades apresentadas
 
@@ -30,12 +30,24 @@ A página de Relacionamentos apresenta o detalhamento de um parceiro fictício, 
 
 Os dados apresentados no protótipo são fictícios e utilizados apenas para demonstração da solução.
 
+## Evolução na Sprint 2
+
+- Adaptação do layout para computadores, tablets e celulares com media queries CSS.
+- Menu hambúrguer para navegação em telas pequenas, com abertura e fechamento por JavaScript.
+- FAQ interativo: as respostas aparecem ou desaparecem ao clicar nas perguntas.
+- Formulário de contato demonstrativo com validação dos campos obrigatórios e mensagem de confirmação.
+- Organização do CSS e manutenção das sete páginas desenvolvidas na Sprint 1.
+
+**Importante:** o formulário não envia nem armazena mensagens. O site continua sendo um protótipo acadêmico, sem banco de dados ou integração com serviços externos.
+
 ## Tecnologias utilizadas
 
 - HTML5
 - CSS3
 - Flexbox
 - CSS Grid
+- Media queries (responsividade)
+- JavaScript
 - Git
 - GitHub
 
@@ -46,6 +58,9 @@ elo-do-bem/
 │
 ├── css/
 │   └── style.css
+│
+├── js/
+│   └── script.js
 │
 ├── imagens/
 │   ├── gabriel.jpeg
@@ -109,7 +124,6 @@ https://github.com/GabrielHenriqueDantas/elo-do-bem
 
 Para informações sobre o projeto, entre em contato com os integrantes através dos perfis do GitHub ou LinkedIn disponíveis neste README.
 
-Observações
+## Observações
 
-Este projeto corresponde à primeira Sprint do Challenge Turma do Bem.
-Nesta etapa, a solução foi desenvolvida como um protótipo estático, sem utilização de JavaScript, frameworks ou bibliotecas externas.
+Este repositório reúne a evolução do projeto nas Sprints 1 e 2 do Challenge Turma do Bem. A Sprint 1 apresentou a estrutura estática em HTML e CSS; a Sprint 2 acrescentou responsividade e interações em JavaScript puro, sem frameworks ou bibliotecas externas.
