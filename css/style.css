@@ -1202,3 +1202,31 @@ a.table-row:hover {
     .task-date { grid-column: 2; text-align: left; }
     .timeline-top, .next-step-info { flex-wrap: wrap; }
 }
+
+
+/* Menu hamburguer */
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .nav.menu-open {
+        display: flex;
+    }
+}
+
