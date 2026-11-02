@@ -10,3 +10,17 @@ if (botaoMenu && menu) {
         botaoMenu.setAttribute("aria-expanded", aberto);
     });
 }
+
+/* FAQ interativo */
+const perguntas = document.querySelectorAll(".faq-button");
+
+perguntas.forEach(function (pergunta) {
+    pergunta.addEventListener("click", function () {
+        const item = pergunta.closest(".faq-item");
+
+        item.classList.toggle("active");
+
+        const aberto = item.classList.contains("active");
+        pergunta.setAttribute("aria-expanded", aberto);
+    });
+});

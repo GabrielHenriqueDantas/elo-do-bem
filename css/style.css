@@ -1230,3 +1230,31 @@ a.table-row:hover {
     }
 }
 
+
+/* FAQ interativo */
+.faq-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background: none;
+    border: none;
+    text-align: left;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--dark);
+}
+
+.faq-item p {
+    display: none;
+}
+
+.faq-item.active p {
+    display: block;
+}
+
+.faq-item.active .faq-button span {
+    transform: rotate(45deg);
+}
